@@ -2,6 +2,12 @@
   padding: 7em;
 }
 
+.header{
+  color: #310164;
+  text-decoration: underline;
+  text-decoration-color: #fbb03b;
+}
+
 .contact_inner_wrapper {
   display: flex;
   margin-top: 30px;
@@ -15,7 +21,9 @@
 
 
 .left_card span {
-  color: orangered;
+  color: #310164;
+  text-decoration: underline;
+  text-decoration-color: #fbb03b;
   font-size: 19px;
   text-transform: uppercase;
   font-weight: 800;
@@ -30,7 +38,7 @@
   padding: 10px;
   outline: none;
   color: #fff;
-  background-color: orangered;
+  background-color: #310164;
   border: none;
   cursor: pointer;
   font-weight: 700;
@@ -67,7 +75,7 @@
 .submit {
   margin-top: 1rem;
   cursor: pointer;
-  background-color: orangered;
+  background-color: #310164;
   color: #fff;
   border: none;
   margin-bottom: 20px;

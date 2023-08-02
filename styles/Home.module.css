@@ -11,17 +11,10 @@
   align-items: center;
   padding: 10px 50px;
   height: 40px;
+  background: #fff;
   visibility: hidden;
+  width: 50%;
 }
-
-/* .navbar .logo img{
-  margin-right: 100px;
-  width: 70px;
-  height: 50px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 600;
-} */
 
 .navbar .menuItem {
   margin-right: auto;
@@ -37,7 +30,7 @@
 }
 
 .navbar .menuItem ul a {
-  color: black;
+  color: #fbb03b;
   text-decoration: none;
 }
 
@@ -54,7 +47,7 @@
   left: 0%;
   width: 0%;
   height: 100%;
-  background-color: #beb19e;
+  background-color: #310164;
   z-index: -1;
 }
 
@@ -63,6 +56,7 @@
   top: 350px;
   right: -100px;
   transform: rotate(-90deg);
+  color: #fbb03b;
 }
 
 .media ul li {
@@ -106,7 +100,7 @@
   left: 0;
   width: 0%;
   height: 100%;
-  background: #53433e;
+  background: #fbb03b;
   animation: block-appear 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   animation-delay: 1.5s;
 }
@@ -147,10 +141,11 @@
   overflow: hidden;
   height: 100px;
   width: 100%;
+  color: #fff;
 }
 
 .text h1 label {
-  color: #fff;
+  color: #fbb03b;
 }
 
 .text h1 .textBar {
@@ -176,6 +171,22 @@
   word-wrap: break-word;
   white-space: normal;
   width: 50%;
+}
+
+.text button{
+  color: #fff;
+  background-color: #fbb03b;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom:-180px;
+}
+
+.text button a{
+  text-decoration: none;
+  color: #fff;
 }
 
 @media only screen and (max-width: 900px) {

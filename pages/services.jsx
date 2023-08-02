@@ -120,7 +120,7 @@ const services = () => {
                   <Image src="/serviceImg1.jpg" alt="girl" fill={true} />
                 </div>
                 <div className={`${style.hero_image} ${style.boy}`} data-scroll>
-                  <Image src="/serviceImg2.jpg" alt="boy" fill={true} />
+                  <Image src="/serviceImg.jpg" alt="boy" fill={true} />
                 </div>
               </div>
             </div>
@@ -129,167 +129,177 @@ const services = () => {
       </div>
 
       <section class={style.section}>
-        <div className={style.inner_wrapper}>
-          <div class={style.boxes_container}>
-            <div class={`${style.columns} ${style.box1}`}>
-              <div class={`${style.col} ${style.col_1}`}>
-                <img src="/s4.jpg" alt="" />
-                <img src="/s5.jpg" alt="" />
-              </div>
-
-              <div class={style.col_2}>
-                <h1 data-scroll data-scroll-speed=".2">
-                  Investment
-                </h1>
-                <div class={style.text_box} data-scroll data-scroll-speed=".3">
-                  <p style={{ marginTop: "20px" }}>
-                    We manage our client’s requirements through the complete
-                    investment life-cycle: <br />- Strategy <br />- Market
-                    Research <br />- Investment and Development Plan <br />-
-                    Property Sourcing <br />- Mortgage <br />- Property
-                    Selection <br />- Conveyancing <br />- Acquisition -
-                    Construction (Property Restructure or Renovations) <br />-
-                    Lettings and Management.
-                  </p>
-                  <p>
-                    We also offer investors who are interested in fixed returns
-                    on their capital invested in our property investment
-                    projects. These returns range from 7 – 12% for a 12-month
-                    period, depending on the capital invested.
-                  </p>
-                </div>
-              </div>
-
-              <div class={`${style.col} ${style.col_3}`}>
-                <img src="/s6.jpg" alt="" />
-                <img src="/s7.jpg" alt="" />
-                <img src="/s8.jpg" alt="" />
-              </div>
-            </div>
-            <div class={`${style.columns} ${style.box2}`}>
-              <div class={`${style.col} ${style.col_1}`}>
-                <img src="/s9.jpg" alt="" />
-                <img src="/s10.jpg" alt="" />
-              </div>
-              <div class={style.col_2}>
-                <h1 data-scroll data-scroll-speed=".2">
-                  Property Asset Management
-                </h1>
-
-                <div class={style.text_box} data-scroll data-scroll-speed=".3">
-                  <p style={{ marginTop: "30px" }}>
-                    At Alive Assets, maximizing your capital value through our
-                    creative property investment approach involves assessing
-                    numerous options where value can be added to any property
-                    acquired. This can include but is not limited to renovating,
-                    remodeling, extending, enhancing, or changing the property
-                    from one use type to another.
-                  </p>
-                  <p>
-                    We take full ownership of all development and refurbishment
-                    works to increase the value of acquired properties,
-                    negotiate contracts with service contractors to deliver the
-                    project within the agreed budget and timeline, advise on an
-                    appropriate exit strategy, and ensure that the project is
-                    completed within the agreed scope of work.
-                  </p>
-                  <p>
-                    We partner with skilled construction and contracting teams
-                    to ensure that each project complies with all applicable
-                    building legislation and safety standards. From conception
-                    to completion, we lead the build team, give guidance and
-                    assistance to our clients. We maintain a single point of
-                    contact with the client at all times and adopt an integrated
-                    approach while managing and balancing financial
-                    responsibilities and project ambitions, regardless of the
-                    size and scope of the project being delivered.
-                  </p>
-                </div>
-              </div>
-              <div class={`${style.col} ${style.col_3}`}>
-                <img src="/s11.jpg" alt="" />
-                <img src="/s12.jpg" alt="" />
-                <img src="/s13.jpg" alt="" />
-              </div>
-            </div>
-            <div class={`${style.columns} ${style.box3}`}>
-              <div class={`${style.col} ${style.col_1}`}>
-                <img src="/s14.jpg" alt="" />
-                <img src="/s15.jpg" alt="" />
-                <img src="/s16.jpg" alt="" />
-                <img src="/s17.jpg" alt="" />
-              </div>
-              <div class={style.col_2}>
-                <h1 data-scroll data-scroll-speed=".2">
-                  Consultancy
-                </h1>
-
-                <div class={style.text_box} data-scroll data-scroll-speed=".4">
-                  <p style={{ marginTop: "30px" }}>
-                    At Alive Assets, we always strive to give the best advice
-                    and services for our clients. We provide property investment
-                    consultancy, property sourcing, and development consultancy
-                    to our clients and investors.
-                  </p>
-                  <p>
-                    As part of our consultancy service, we develop and provide
-                    our clients with realistic investment and project plans to
-                    make sure projects are completed within their expected
-                    timeline.
-                  </p>
-                  <p>
-                    We support our clients and investors with the planning and
-                    development of their investment projects, in addition to
-                    providing them with market-backed analysis to help them make
-                    the right decision based on their investment objectives.
-                  </p>
-                  <p>
-                    We bring value, a broader context and data-backed knowledge
-                    to all phases of acquiring, developing, and managing real
-                    estate. We stay on top of every element impacting the real
-                    estate industry, and we are not hesitant to push, innovate,
-                    and question in order to make sure our clients maximize
-                    their returns on investment.
-                  </p>
-                </div>
-              </div>
-              <div class={`${style.col} ${style.col_3}`}>
-                <img src="/s18.jpg" alt="" />
-              </div>
-            </div>
-            <div class={`${style.columns} ${style.box3}`}>
-              <div class={`${style.col} ${style.col_1}`}>
-                <img src="/s10.jpg" alt="" />
-                <img src="/s6.jpg" alt="" />
-                <img src="/s8.jpg" alt="" />
-                <img src="/s12.jpg" alt="" />
-              </div>
-              <div class={style.col_2}>
-                <h1 data-scroll data-scroll-speed=".2">
-                  Co-Living Spaces & Serviced Accommodation
-                </h1>
-
-                <div class={style.text_box} data-scroll data-scroll-speed=".4">
-                  <p style={{ marginTop: "50px" }}>
-                    We provide one-of-a-kind co-living spaces as well as
-                    all-inclusive living accommodations for working
-                    professionals. We work with landlords to take on their
-                    properties on a 3–5-year lease using our GUARANTEED RENT
-                    model.
-                  </p>
-                  <p>
-                    Through this model, we also offer serviced accommodation to
-                    a wide range of guests, from tourists to business people,
-                    and those looking for somewhere to stay either between house
-                    moves or during renovations.
-                  </p>
-                </div>
-              </div>
-              <div class={`${style.col} ${style.col_3}`}>
-                <img src="/s18.jpg" alt="" />
-              </div>
-            </div>
+        <div className={style.inner_section}>
+          <div className={style.section_content}>
+            <h3 data-scroll data-scroll-speed="0.2">
+              Investment
+            </h3>
+            <p data-scroll data-scroll-speed="0.3">
+              We manage our client’s requirements through the complete
+              investment life-cycle: <br />- Strategy <br />- Market Research{" "}
+              <br />- Investment and Development Plan <br />- Property Sourcing{" "}
+              <br />- Mortgage <br />- Property Selection <br />- Conveyancing{" "}
+              <br />- Acquisition - Construction (Property Restructure or
+              Renovations) <br />- Lettings and Management.
+              <br />
+              <br />
+              We also offer investors who are interested in fixed returns on
+              their capital invested in our property investment projects. These
+              returns range from 7 – 12% for a 12-month period, depending on the
+              capital invested.
+            </p>
           </div>
+          <Image
+            src="/s3.jpg"
+            width={550}
+            height={400}
+            className={style.inner_section_image}
+            data-scroll
+            data-scroll-speed="0.1"
+          />
+        </div>
+
+        <div className={style.inner_section}>
+          <Image
+            src="/s12.JPG"
+            width={550}
+            height={400}
+            className={style.inner_section_image}
+            data-scroll
+            data-scroll-speed="0.1"
+          />
+          <div className={style.section_content}>
+            <h3 data-scroll data-scroll-speed="0.2">
+              Property Asset Management
+            </h3>
+            <p data-scroll data-scroll-speed="0.3">
+              At Alive Assets, maintaining the lifespan of built properties is
+              at the core of our business. Our approach is to provide excellent
+              customer service and to be open and honest with our tenants. As a
+              result, this guarantees that the assets we manage are well cared
+              for by tenants who live in them.
+              <br />
+              <br />
+              We provide unique, innovative property asset management solutions
+              as well as processes that enable the value of your property
+              investments to be maximized and sustained.
+              <br />
+              <br />
+              We deliver the full lifecycle of the asset management process,
+              which ranges from lettings, property compliance, day-to-day
+              management, rent collection, routine inspections, maintenance &
+              value-added renovation work.
+            </p>
+          </div>
+        </div>
+
+        <div className={style.inner_section}>
+          <div className={style.section_content}>
+            <h3 data-scroll-speed="0.2">Project Management</h3>
+            <p>
+              At Alive Assets, maximizing your capital value through our
+              creative property investment approach involves assessing numerous
+              options where value can be added to any property acquired. This
+              can include but is not limited to renovating, remodeling,
+              extending, enhancing, or changing the property from one use type
+              to another.
+              <br />
+              <br />
+              We take full ownership of all development and refurbishment works
+              to increase the value of acquired properties, negotiate contracts
+              with service contractors to deliver the project within the agreed
+              budget and timeline, advise on an appropriate exit strategy, and
+              ensure that the project is completed within the agreed scope of
+              work.
+              <br />
+              <br />
+              We partner with skilled construction and contracting teams to
+              ensure that each project complies with all applicable building
+              legislation and safety standards. From conception to completion,
+              we lead the build team, give guidance and assistance to our
+              clients. We maintain a single point of contact with the client at
+              all times and adopt an integrated approach while managing and
+              balancing financial responsibilities and project ambitions,
+              regardless of the size and scope of the project being delivered.
+            </p>
+          </div>
+          <Image
+            src="/s4.jpg"
+            width={550}
+            height={400}
+            className={style.inner_section_image}
+            data-scroll
+            data-scroll-speed="0.1"
+          />
+        </div>
+
+        <div className={style.inner_section}>
+          <Image
+            src="/s7.jpg"
+            width={550}
+            height={400}
+            className={style.inner_section_image}
+            data-scroll
+            data-scroll-speed="0.1"
+          />
+          <div className={style.section_content}>
+            <h3 data-scroll data-scroll-speed="0.2">
+              Consultancy
+            </h3>
+            <p data-scroll data-scroll-speed="0.3">
+              At Alive Assets, we always strive to give the best advice and
+              services for our clients. We provide property investment
+              consultancy, property sourcing, and development consultancy to our
+              clients and investors.
+              <br />
+              <br />
+              As part of our consultancy service, we develop and provide our
+              clients with realistic investment and project plans to make sure
+              projects are completed within their expected timeline.
+              <br />
+              <br />
+              We support our clients and investors with the planning and
+              development of their investment projects, in addition to providing
+              them with market-backed analysis to help them make the right
+              decision based on their investment objectives.
+              <br />
+              <br />
+              We bring value, a broader context and data-backed knowledge to all
+              phases of acquiring, developing, and managing real estate. We stay
+              on top of every element impacting the real estate industry, and we
+              are not hesitant to push, innovate, and question in order to make
+              sure our clients maximize their returns on investment.
+            </p>
+          </div>
+        </div>
+
+        <div className={style.inner_section}>
+          <div className={style.section_content}>
+            <h3 data-scroll data-scroll-speed="0.2">
+              Co-Living Spaces & Serviced Accommodation
+            </h3>
+            <p data-scroll data-scroll-speed="0.3">
+              We provide one-of-a-kind co-living spaces as well as all-inclusive
+              living accommodations for working professionals. We work with
+              landlords to take on their properties on a 3–5-year lease using
+              our GUARANTEED RENT model, ensuring that their revenue is safe
+              while also effectively managing their asset.
+              <br />
+              <br />
+              Through this model, we also offer serviced accommodation to a wide
+              range of guests, from tourists to business people, and those
+              looking for somewhere to stay either between house moves or during
+              renovations.
+            </p>
+          </div>
+          <Image
+            src="/s5.JPG"
+            width={550}
+            height={400}
+            className={style.inner_section_image}
+            data-scroll
+            data-scroll-speed="0.1"
+          />
         </div>
       </section>
       <MobileServices />

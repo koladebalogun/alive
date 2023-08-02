@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import Image from "next/image";
 import style from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   const tl = gsap.timeline();
@@ -81,14 +82,17 @@ export default function Home() {
         </h1>
         <p>
           <span className={style.textBar} ref={text}>
-            We are dedicated to helping clients maximize their capital value
-            &amp; achieve consistent cashflow utilizing creative Property
+            We are dedicated to helping clients maximize their capital value & achieve consistent cashflow utilizing creative Property
             Investment Strategies in the United Kingdom. Our approach to
             achieving these goals for our clients is to sustain and maintain the
             lifecycle of their properties through effective property management
             processes.
           </span>
         </p>
+
+        <button  ref={text}>
+          <Link href="/services">Explore Services</Link>
+        </button>
       </div>
 
       {/* <footer className={style.bottomNav}>

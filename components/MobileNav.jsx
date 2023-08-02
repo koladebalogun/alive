@@ -18,7 +18,7 @@ const MobileNav = () => {
 
   return (
     <>
-      <GiHamburgerMenu className={style.open} onClick={openNav} />
+      {!navOpen && <GiHamburgerMenu className={style.open} onClick={openNav} />}
       {navOpen && (
         <nav className={style.mobile_nav}>
           <ul>
