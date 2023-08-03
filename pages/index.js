@@ -106,6 +106,8 @@ export default function Home() {
           </span>
         </p>
 
+        <div className={style.button}>
+
         <button  ref={btn}>
           <Link href="/services">Explore Services</Link>
         </button>
@@ -115,6 +117,7 @@ export default function Home() {
           <Image src="/ico.svg.png" width={50} height={30} />
           <Image src="/ins.jpg" width={50} height={30} />
           <Image src="/prs.jpg" width={90} height={30} />
+        </div>
         </div>
       </div>
     </div>

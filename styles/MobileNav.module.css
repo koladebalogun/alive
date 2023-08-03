@@ -2,6 +2,55 @@
   display: none;
 }
 
+@media only screen and (max-width: 900px) {
+
+  .mobile_nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    background: #310164;
+    color: #fff;
+    padding: 50px 30px;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .mobile_nav ul a {
+    text-decoration: none;
+  }
+
+  .mobile_nav ul li {
+    padding: 40px 0px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fbb03b;
+  }
+
+  .open {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-size: 30px;
+    z-index: 10;
+  }
+
+  .close {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
 
   .mobile_nav {
