@@ -161,7 +161,7 @@ const services = () => {
 
         <div className={style.inner_section}>
           <Image
-            src="/s12.JPG"
+            src="/s12.jpg"
             width={550}
             height={400}
             className={style.inner_section_image}

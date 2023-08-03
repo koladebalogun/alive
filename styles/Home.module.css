@@ -170,10 +170,9 @@
   word-wrap: break-word;
   white-space: normal;
   width: 50%;
-
 }
 
-.text button{
+.text button {
   color: #fff;
   background-color: #fbb03b;
   outline: none;
@@ -181,15 +180,15 @@
   padding: 5px 10px;
   cursor: pointer;
   position: absolute;
-  bottom:-100px;
+  bottom: -100px;
 }
 
-.text button a{
+.text button a {
   text-decoration: none;
   color: #fff;
 }
 
-.compliance_logo{
+.compliance_logo {
   position: absolute;
   bottom: -290px;
   display: flex;
@@ -200,13 +199,13 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .bg{
+  .bg {
     width: 100%;
-    height: 0%;
+    height: 100vh;
   }
 
   .media {
-   display: none;
+    display: none;
   }
 
   .imageWrapper {
@@ -223,7 +222,7 @@
 
   .text h1 {
     font-size: 20px;
-    height:50px;
+    height: 50px;
   }
 
   .text p {
@@ -231,32 +230,32 @@
     /* width: 730px; */
   }
 
-  .text p .textBar{
+  .text p .textBar {
     width: 100%;
   }
 
-  .imageWrapper{
+  .imageWrapper {
     left: 0px;
   }
 
-  .imageWrapper .img{
+  .imageWrapper .img {
     height: 33vh;
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .navbar{
+  .navbar {
     display: none;
   }
 
-  .bg{
+  .bg {
     width: 100%;
     height: 0%;
   }
 
   .media {
-   display: none;
+    display: none;
   }
 
   .imageWrapper {
@@ -273,7 +272,7 @@
 
   .text h1 {
     font-size: 20px;
-    height:50px;
+    height: 50px;
   }
 
   .text p {
@@ -281,17 +280,25 @@
     /* width: 730px; */
   }
 
-  .text p .textBar{
+  .text p .textBar {
     width: 100%;
   }
 
-  .imageWrapper{
+  .imageWrapper {
     left: 0px;
   }
 
-  .imageWrapper .img{
+  .imageWrapper .img {
     height: 33vh;
   }
 
-  
+  .compliance_logo {
+    position: absolute;
+    bottom: -290px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #fff; */
+    width: 50%;
+    padding: 5px;
+  }
 }
