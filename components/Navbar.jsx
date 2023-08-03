@@ -26,28 +26,28 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className={style.navbar} ref={navBar}>
-      <div className={style.logo}>
-        <Image width={100} height={100} src="/alive.png" alt="logo" />
-      </div>
-      <div className={style.menuItem}>
-        <ul>
-          <Link href="/">
-            <li>Home</li>
-          </Link>
-          <Link href="/services">
-            <li>Services</li>
-          </Link>
-          <Link href="/about">
-            <li>About Us</li>
-          </Link>
-          <Link href="/contact">
-            <li>Contact Us</li>
-          </Link>
-        </ul>
-      </div>
-    </nav>
-    <MobileNav />
+      <nav className={style.navbar} ref={navBar}>
+        <div className={style.logo}>
+          <Image width={100} height={100} src="/alive.png" alt="logo" />
+        </div>
+        <div className={style.menuItem}>
+          <ul>
+            <Link href="/">
+              <li>Home</li>
+            </Link>
+            <Link href="/about">
+              <li>About Us</li>
+            </Link>
+            <Link href="/services">
+              <li>Services</li>
+            </Link>
+            <Link href="/contact">
+              <li>Contact Us</li>
+            </Link>
+          </ul>
+        </div>
+      </nav>
+      <MobileNav />
     </>
   );
 };

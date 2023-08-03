@@ -14,6 +14,8 @@ export default function Home() {
   const media = useRef();
   const header = useRef();
   const text = useRef();
+  const btn = useRef();
+  const businessLogo = useRef();
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
@@ -45,6 +47,20 @@ export default function Home() {
       });
 
       tl.from(text.current, 1.5, {
+        delay: 0.3,
+        opacity: 0,
+        y: "100%",
+        ease: "Expo.easeInOut",
+      });
+
+      tl.from(btn.current, 1.5, {
+        delay: 0.3,
+        opacity: 0,
+        y: "100%",
+        ease: "Expo.easeInOut",
+      });
+
+      tl.from(businessLogo.current, 1.5, {
         delay: 0.3,
         opacity: 0,
         y: "100%",
@@ -90,14 +106,17 @@ export default function Home() {
           </span>
         </p>
 
-        <button  ref={text}>
+        <button  ref={btn}>
           <Link href="/services">Explore Services</Link>
         </button>
+
+        <div className={style.compliance_logo} ref={businessLogo}>
+          
+          <Image src="/ico.svg.png" width={50} height={30} />
+          <Image src="/ins.jpg" width={50} height={30} />
+          <Image src="/prs.jpg" width={90} height={30} />
+        </div>
       </div>
-
-      {/* <footer className={style.bottomNav}>
-
-      </footer> */}
     </div>
   );
 }

@@ -127,7 +127,7 @@
 .text {
   position: absolute;
   top: 40%;
-  left: 51.1%;
+  left: 43%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
   width: 1000px;
@@ -154,8 +154,7 @@
 
 .text p {
   font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-weight: lighter;
   position: relative;
   /* overflow: hidden; */
@@ -171,6 +170,7 @@
   word-wrap: break-word;
   white-space: normal;
   width: 50%;
+
 }
 
 .text button{
@@ -181,12 +181,22 @@
   padding: 5px 10px;
   cursor: pointer;
   position: absolute;
-  bottom:-180px;
+  bottom:-100px;
 }
 
 .text button a{
   text-decoration: none;
   color: #fff;
+}
+
+.compliance_logo{
+  position: absolute;
+  bottom: -290px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 25%;
+  padding: 5px;
 }
 
 @media only screen and (max-width: 900px) {

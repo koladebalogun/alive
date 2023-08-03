@@ -120,7 +120,7 @@ const services = () => {
                   <Image src="/serviceImg1.jpg" alt="girl" fill={true} />
                 </div>
                 <div className={`${style.hero_image} ${style.boy}`} data-scroll>
-                  <Image src="/serviceImg.jpg" alt="boy" fill={true} />
+                  <Image src="/svc.webp" alt="boy" fill={true} />
                 </div>
               </div>
             </div>
@@ -224,7 +224,7 @@ const services = () => {
             </p>
           </div>
           <Image
-            src="/s4.jpg"
+            src="/mgt.webp"
             width={550}
             height={400}
             className={style.inner_section_image}
@@ -293,7 +293,7 @@ const services = () => {
             </p>
           </div>
           <Image
-            src="/s5.JPG"
+            src="/coliving.webp"
             width={550}
             height={400}
             className={style.inner_section_image}
