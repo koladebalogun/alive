@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 10px;
   height: 40px;
   background: #fff;
   visibility: hidden;
@@ -22,7 +22,7 @@
 
 .navbar .menuItem ul li {
   display: inline-block;
-  padding: 0 30px;
+  padding: 0 23px;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
