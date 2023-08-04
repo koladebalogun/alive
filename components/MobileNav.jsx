@@ -4,6 +4,7 @@ import style from "../styles/MobileNav.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 const MobileNav = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -18,7 +19,12 @@ const MobileNav = () => {
 
   return (
     <>
-      {!navOpen && <GiHamburgerMenu className={style.open} onClick={openNav} />}
+      <div className={style.mobile_navbar}>
+      <Image width={150} height={130} src="/alive.png" alt="logo" className={style.mobile_logo} />
+
+        {!navOpen && <GiHamburgerMenu className={style.open} onClick={openNav} />}
+      </div>
+      
       {navOpen && (
         <nav className={style.mobile_nav}>
           <ul>

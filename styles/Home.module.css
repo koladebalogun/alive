@@ -281,15 +281,14 @@
 
 
 
-@media only screen and (max-width: 900px) {
-  .navbar {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 500px) {
   .navbar {
     display: none;
+  }
+
+  .wrapper{
+    height: 100vh;
+    position: relative;
   }
 
   .bg {
@@ -343,7 +342,7 @@
 
   .compliance_logo {
     position: absolute;
-    bottom: -270px;
+    bottom: -170px;
     display: flex;
     justify-content: space-between;
     /* background-color: #fff; */

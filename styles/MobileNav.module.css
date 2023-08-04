@@ -3,6 +3,19 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .mobile_navbar{
+    display: flex;
+    width: 100%;
+    /* height: 30px; */
+    padding: 5px;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .mobile_logo{
+    position: absolute;
+    left: -6%;
+  }
 
   .mobile_nav {
     display: flex;
@@ -37,11 +50,13 @@
   .open {
     display: block;
     position: absolute;
-    top: 0%;
-    right: 0%;
+    top: 1%;
+    right: 2%;
     font-size: 30px;
     z-index: 10;
+    color: #310164;
   }
+
 
   .close {
     position: absolute;
@@ -52,6 +67,14 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .mobile_navbar{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    align-items: center;
+  }
 
   .mobile_nav {
     display: flex;
@@ -86,10 +109,11 @@
   .open {
     display: block;
     position: absolute;
-    top: 0%;
-    right: 0%;
+    top: 1%;
+    right: 2%;
     font-size: 30px;
     z-index: 10;
+    color: #310164;
   }
 
   .close {
