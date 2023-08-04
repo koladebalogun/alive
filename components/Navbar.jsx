@@ -28,7 +28,7 @@ const Navbar = () => {
     <>
       <nav className={style.navbar} ref={navBar}>
         <div className={style.logo}>
-          <Image width={100} height={100} src="/alive.png" alt="logo" />
+          <Image width={150} height={150} src="/alive.png" alt="logo" />
         </div>
         <div className={style.menuItem}>
           <ul>

@@ -59,6 +59,11 @@
   color: #fbb03b;
 }
 
+.media a{
+  color: #fbb03b;
+  text-decoration: none;
+}
+
 .media ul li {
   display: inline-block;
   padding: 0 20px;
@@ -244,6 +249,38 @@
   }
 }
 
+@media only screen and (min-width: 1500px) {
+  .navbar {
+    height: 75px;
+    padding: 5px 25px;
+  }
+
+  .block {
+    right: 200px;
+  }
+
+  .imageWrapper {
+    left: 850px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .navbar {
+    height: 75px;
+    padding: 5px 25px;
+  }
+
+  .block {
+    right: 200px;
+  }
+
+  .imageWrapper {
+    left: 980px;
+  }
+}
+
+
+
 @media only screen and (max-width: 900px) {
   .navbar {
     display: none;
@@ -292,7 +329,7 @@
     padding: 10px;
   }
 
-  .button{
+  .button {
     padding: 10px;
   }
 

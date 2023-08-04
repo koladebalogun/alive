@@ -1,6 +1,6 @@
 "use client";
 
-import React, {useLayoutEffect, useRef } from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
 import style from "@/styles/Home.module.css";
@@ -26,7 +26,7 @@ export default function Home() {
         ease: "Expo.easeInOut",
       });
 
-      if(window.innerWidth < 1000){
+      if (window.innerWidth < 1000) {
         tl.to(bg.current, 2, {
           height: "100%",
           ease: "Expo.easeInOut",
@@ -78,10 +78,34 @@ export default function Home() {
 
       <div className={style.media} ref={media}>
         <ul>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>LinkedIn</li>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/aliveassets"
+            rel="noopener noreferrer"
+          >
+            <li>Facebook</li>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.Instagram.com/aliveassets"
+            rel="noopener noreferrer"
+          >
+            <li>Instagram</li>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.twitter.com/aliveassets"
+            rel="noopener noreferrer"
+          >
+            <li>Twitter</li>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/alive-assets/"
+            rel="noopener noreferrer"
+          >
+            <li>LinkedIn</li>
+          </a>
         </ul>
       </div>
 
@@ -98,26 +122,24 @@ export default function Home() {
         </h1>
         <p>
           <span className={style.textBar} ref={text}>
-            We are dedicated to helping clients maximize their capital value & achieve consistent cashflow utilizing creative Property
-            Investment Strategies in the United Kingdom. Our approach to
-            achieving these goals for our clients is to sustain and maintain the
-            lifecycle of their properties through effective property management
-            processes.
+            We are dedicated to helping clients maximize their capital value &
+            achieve consistent cashflow utilizing creative Property Investment
+            Strategies in the United Kingdom. Our approach to achieving these
+            goals for our clients is to sustain and maintain the lifecycle of
+            their properties through effective property management processes.
           </span>
         </p>
 
         <div className={style.button}>
+          <button ref={btn}>
+            <Link href="/services">Explore Services</Link>
+          </button>
 
-        <button  ref={btn}>
-          <Link href="/services">Explore Services</Link>
-        </button>
-
-        <div className={style.compliance_logo} ref={businessLogo}>
-          
-          <Image src="/ico.svg.png" width={50} height={30} />
-          <Image src="/ins.jpg" width={50} height={30} />
-          <Image src="/prs.jpg" width={90} height={30} />
-        </div>
+          <div className={style.compliance_logo} ref={businessLogo}>
+            <Image src="/ico.svg.png" width={50} height={30} />
+            <Image src="/ins.jpg" width={50} height={30} />
+            <Image src="/prs.jpg" width={90} height={30} />
+          </div>
         </div>
       </div>
     </div>
