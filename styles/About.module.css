@@ -109,12 +109,13 @@
 
   .backgroundImage {
     height: 50vh;
+    margin-top: 30px;
   }
 
   .introImage {
     width: 125px;
     height: 125px;
-    top: 15%;
+    top: 20%;
   }
 
   .introContainer h1 {
@@ -125,12 +126,16 @@
   .mobileWrapper {
     display: block;
     height: 100%;
+    margin-top: 250px;
     margin-bottom: 30px;
+    background-color: #fff;
   }
 
   .mobileWrapper h3 {
     font-size: 40px;
     padding: 0 10px;
+   
+
   }
 
   .mobile_hero {
@@ -150,8 +155,12 @@
     position: absolute;
     color: #fff;
     top: 15%;
-    padding: 20px;
+    left: 12%;
+    padding: 10px;
     font-size: 45px;
+    background-color: #310164;
+    text-decoration: underline;
+    text-decoration-color: #fbb03b;
   }
 
   .mobile_service_content {

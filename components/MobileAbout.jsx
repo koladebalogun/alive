@@ -14,6 +14,7 @@ const MobileAbout = () => {
       console.log(locomotiveScroll);
     })();
   }, []);
+  
   return (
     <div className={style.mobileWrapper}>
       <div>
