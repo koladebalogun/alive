@@ -103,8 +103,13 @@
 }
 
 @media only screen and (max-width: 500px) {
+
   .wrapper {
     display: none;
+  }
+
+  .intro{
+    margin-bottom: 300px;
   }
 
   .backgroundImage {
@@ -126,7 +131,6 @@
   .mobileWrapper {
     display: block;
     height: 100%;
-    margin-top: 250px;
     margin-bottom: 30px;
     background-color: #fff;
   }

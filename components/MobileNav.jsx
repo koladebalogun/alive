@@ -20,7 +20,12 @@ const MobileNav = () => {
   return (
     <>
       <div className={style.mobile_navbar}>
-      <Image width={150} height={130} src="/alive.png" alt="logo" className={style.mobile_logo} />
+        <div className={style.mobile_logo}>
+
+        <Link href="/">
+          <Image width={150} height={130} src="/alive.png" alt="logo" />
+        </Link>
+        </div>
 
         {!navOpen && <GiHamburgerMenu className={style.open} onClick={openNav} />}
       </div>

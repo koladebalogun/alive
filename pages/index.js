@@ -76,8 +76,44 @@ export default function Home() {
       <div className={style.bg} ref={bg}></div>
       <Navbar />
 
-      <div className={style.media} ref={media}>
-        <ul>
+      
+
+      <div className={style.imageWrapper}>
+        <div className={style.img}></div>
+        <div className={style.block}></div>
+      </div>
+
+      <div className={style.text}>
+        <h1>
+          <span className={style.textBar} ref={header}>
+            Property Investment <br />& <label>Consultancy Firm</label>
+          </span>
+        </h1>
+        <p>
+          <span className={style.textBar} ref={text}>
+            We are dedicated to helping clients maximize their capital value &
+            achieve consistent cashflow utilizing creative Property Investment
+            Strategies in the United Kingdom. Our approach to achieving these
+            goals for our clients is to sustain and maintain the lifecycle of
+            their properties through effective property management processes.
+          </span>
+        </p>
+
+        <div className={style.button}>
+          <button ref={btn}>
+            <Link href="/services">Explore Services</Link>
+          </button>
+
+        </div>
+          <div className={style.footer} ref={businessLogo}>
+            <div className={style.compliance_logo} >
+              <Image src="/ico.svg.png" width={40} height={30} />
+              <Image src="/ins.jpg" width={40} height={30} />
+              <Image src="/prs.jpg" width={50} height={20} />
+            </div>
+
+            <div className={style.footer_socials}>
+            <ul>
           <a
             target="_blank"
             href="https://www.facebook.com/aliveassets"
@@ -107,40 +143,8 @@ export default function Home() {
             <li>LinkedIn</li>
           </a>
         </ul>
-      </div>
-
-      <div className={style.imageWrapper}>
-        <div className={style.img}></div>
-        <div className={style.block}></div>
-      </div>
-
-      <div className={style.text}>
-        <h1>
-          <span className={style.textBar} ref={header}>
-            Property Investment <br />& <label>Consultancy Firm</label>
-          </span>
-        </h1>
-        <p>
-          <span className={style.textBar} ref={text}>
-            We are dedicated to helping clients maximize their capital value &
-            achieve consistent cashflow utilizing creative Property Investment
-            Strategies in the United Kingdom. Our approach to achieving these
-            goals for our clients is to sustain and maintain the lifecycle of
-            their properties through effective property management processes.
-          </span>
-        </p>
-
-        <div className={style.button}>
-          <button ref={btn}>
-            <Link href="/services">Explore Services</Link>
-          </button>
-
-          <div className={style.compliance_logo} ref={businessLogo}>
-            <Image src="/ico.svg.png" width={50} height={30} />
-            <Image src="/ins.jpg" width={50} height={30} />
-            <Image src="/prs.jpg" width={90} height={30} />
+            </div>
           </div>
-        </div>
       </div>
     </div>
   );
