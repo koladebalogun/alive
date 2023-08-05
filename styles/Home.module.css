@@ -359,7 +359,7 @@
 
   .text button {
     padding: 10px;
-    bottom: -90px;
+    bottom: -110px;
     left: 10px;
   }
 
@@ -372,12 +372,12 @@
   }
 
   .footer{
-    display: flex;
+    display: block;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: -180px;
+    bottom: -210px;
   }
 
 
@@ -388,18 +388,21 @@
     justify-content: space-between;
     align-items:center;
     /* background-color: #fff; */
-    width: 50%;
+    width: 40%;
     padding: 5px;
-    margin: 10px 10px;
+    margin: 20px 10px;
   }
 
   .footer_socials ul{
     list-style:none;
     display: flex;
     justify-content: space-between;
-    font-size: 8px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
+  }
+
+  .footer_socials ul a{
     padding: 0 5px;
   }
 }
