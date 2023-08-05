@@ -103,18 +103,16 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .content{
-    height: 100vh;
-  }
+ 
 
   .wrapper {
     display: none;
   }
 
   .backgroundImage {
-    height: 50vh;
+    height: 40vh;
     margin-top: 30px;
-    margin-bottom: 100px;
+   position: relative;
   }
 
   .introImage {
