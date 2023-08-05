@@ -20,7 +20,7 @@ const MobileAbout = () => {
       <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="/a4.jpg" />
+            <img src="/s6.jpg" />
             <div
               className={style.mobile_hero_header}
               data-scroll
@@ -85,7 +85,7 @@ const MobileAbout = () => {
       <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="/s4.jpg" />
+            <img src="/whyus.jpg" />
             <div
               className={style.mobile_hero_header}
               data-scroll

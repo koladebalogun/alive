@@ -72,8 +72,6 @@
   .mobile_navbar{
     display: flex;
     width: 100%;
-    /* height: 30px; */
-    background-color: #fff;
     align-items: center;
   }
 
@@ -82,13 +80,13 @@
     display: block;
     position: absolute;
     left: -5%;
-    top: -5%;
+    top: -7%;
   }
 
   .mobile_navbar{
     display: flex;
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: #fff;
     align-items: center;
   }
@@ -139,6 +137,16 @@
     left: 0%;
     font-size: 30px;
   }
+}
+
+@media only screen and (max-width: 450px) {
+  .mobile_logo{
+    display: block;
+    position: absolute;
+    left: -5%;
+    top: -4.55%;
+  }
+
 }
 
 @media only screen and (max-width: 375px) {

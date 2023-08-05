@@ -30,8 +30,8 @@ const About = () => {
   }, []);
 
   return (
-    <>
-      <div className="content" ref={content}>
+    <div  className={style.content}>
+      <div ref={content}>
         <Navbar />
         <AboutBanner />
         <div className={style.wrapper}>
@@ -101,7 +101,7 @@ const About = () => {
         </div>
       </div>
       <MobileAbout />
-    </>
+    </div>
   );
 };
 

@@ -309,7 +309,6 @@
 }
 
 
-
 @media only screen and (max-width: 500px) {
   .navbar {
     display: none;
@@ -359,7 +358,7 @@
 
   .text button {
     padding: 10px;
-    bottom: -110px;
+    bottom: -80px;
     left: 10px;
   }
 
@@ -377,13 +376,11 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: -210px;
+    bottom: -180px;
   }
 
 
   .compliance_logo {
-    /* position: absolute;
-    bottom: -170px; */
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -404,5 +401,22 @@
 
   .footer_socials ul a{
     padding: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .text button {
+    padding: 10px;
+    bottom: -105px;
+    left: 10px;
+  }
+  
+  .footer{
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -200px;
   }
 }
